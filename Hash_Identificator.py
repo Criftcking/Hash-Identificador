@@ -3,7 +3,9 @@ from bs4 import BeautifulSoup
 import colorama
 from colorama import Fore, Style
 import os
+from pyfiglet import Figlet
 
+fig = Figlet(font='small')
 
 colorama.init()
 
@@ -73,7 +75,7 @@ def program():
 
 
         clear_terminal()
-        print(Fore.LIGHTGREEN_EX+Style.BRIGHT+"-------------------𝐻𝑎𝑠ℎ 𝑖𝑑𝑒𝑛𝑡𝑖𝑓𝑖𝑐𝑎𝑑𝑜𝑟------------\n\n---------------Code By @Criftcking_Real | GhostHat_Real---------------"+Fore.RESET)
+        print(Fore.LIGHTCYAN_EX+Style.BRIGHT+fig.renderText("Hash Identificador")+"\n---------------Code By @Criftcking_Real | GhostHat_Real---------------"+Fore.RESET)
         print("\n")
 
 
@@ -109,7 +111,7 @@ clear_terminal()
 
 
 
-print(Fore.LIGHTGREEN_EX+Style.BRIGHT+"-------------------𝐻𝑎𝑠ℎ 𝑖𝑑𝑒𝑛𝑡𝑖𝑓𝑖𝑐𝑎𝑑𝑜𝑟------------\n\n---------------Code By @Criftcking_Real | GhostHat_Real---------------"+Fore.RESET)
-print("\n\n\n\n")
+print(Fore.LIGHTCYAN_EX+Style.BRIGHT+fig.renderText("Hash Identificador")+"\n---------------Code By @Criftcking_Real | GhostHat_Real---------------"+Fore.RESET)
+print("\n\n")
 
 program()
